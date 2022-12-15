@@ -1,0 +1,157 @@
+#title {
+    background: linear-gradient(45deg, #fd267a, #ff6036);
+    color: white;
+}
+
+body {
+    font-family: 'Montserrat-black', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%
+}
+
+
+/*Navbar*/
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-style {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+
+/*banner*/
+
+.banner {
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+.feature-grid {
+    margin: 50px 50px;
+    text-align: center;
+}
+
+.feature-icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+    color: #ff4c69;
+}
+
+.feature-title {
+    font-family: "Montserrat-bold";
+    font-size: 1.5rem;
+}
+
+.feature-desc {
+    color: #8f8f8f;
+}
+
+.feature-1 {
+    padding: 60px;
+}
+
+.feature-2 {
+    padding: 60px;
+}
+
+.feature-3 {
+    padding: 60px;
+}
+
+
+/*testimonials*/
+
+.testimonial {
+    padding: 20px 110px;
+    background-color: #ef8172;
+    text-align: center;
+    color: #ffff;
+}
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-title {
+    font-family: "Montserrat-bold";
+    font-size: 2.5rem;
+}
+
+.testimonial-img {
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+}
+
+
+/*press*/
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px;
+}
+
+
+/* Pricing */
+
+#pricing {
+    text-align: center;
+    padding: 50px;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-title {
+    color: #fff;
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    word-spacing: 10px;
+}
+
+@media (max-width:992px) {
+    #title {
+        text-align: center;
+    }
+    .banner {
+        transform: rotate(0);
+    }
+}
